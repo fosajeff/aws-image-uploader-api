@@ -1,4 +1,4 @@
-import "dotenv/config";
+if (process.env.NODE_ENV !== 'production') import "dotenv/config";
 import UploadController from "./src/resources/upload.controller";
 import App from "./app";
 
