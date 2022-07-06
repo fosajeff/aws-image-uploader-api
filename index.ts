@@ -1,3 +1,4 @@
+import "dotenv/config";
 import UploadController from "./src/resources/upload.controller";
 import App from "./app";
 

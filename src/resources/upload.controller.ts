@@ -29,7 +29,7 @@ class UploadController implements IController {
       return next(new HttpException(400, "Could not upload file"));
     } else {
       res.send({
-        imageUrl: path.resolve(req.file.path),
+        imageUrl: (req.file as Express.MulterS3.File).location,
       });
     }
   }
