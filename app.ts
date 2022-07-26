@@ -7,9 +7,9 @@ class App {
   public express: Application;
   public port: number;
 
-  constructor(controllers: IController[], port: number) {
+  constructor(controllers: IController[], port?: number) {
     this.express = express();
-    this.port = port;
+    this.port = Number(process.env.PORT || port);
 
     this.initialiseMiddleware();
     this.intialiseControllers(controllers);

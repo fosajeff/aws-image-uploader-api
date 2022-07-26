@@ -1,4 +1,3 @@
-import path from "path";
 import { NextFunction, Request, Response, Router } from "express";
 import HttpException from "../utils/http.exception";
 import upload from "../utils/multer";

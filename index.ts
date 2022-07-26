@@ -1,8 +1,8 @@
 import UploadController from "./src/resources/upload.controller";
 import App from "./app";
-if (process.env.NODE_ENV !== 'production') require("dotenv").config();
+if (process.env.NODE_ENV !== "production") require("dotenv").config();
 
-const app = new App([new UploadController()], Number(process.env.PORT) || 4040);
+const app = new App([new UploadController()]);
 
 app.listen();
 
