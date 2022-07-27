@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/fosajeff/image-uploader-backend">
+    <a href="https://github.com/fosajeff/aws-image-uploader-api" target="_blank">
       Code
     </a>
   </h3>
@@ -35,7 +35,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/fosajeff/image-uploader-backend.git
+$ git clone https://github.com/fosajeff/aws-image-uploader-api.git
 
 # Install dependencies
 $ yarn
